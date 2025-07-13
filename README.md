@@ -31,15 +31,6 @@ An intelligent, interactive web app that helps job seekers optimize their resume
 ---
 
 
-###  How to Run Locally
-
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/Ammar-Siddiqui/ai-resume-analyzer.git
-   cd ai-resume-analyzer
-
-
-
 
 ### 🧪 How to Run Locally
 
@@ -47,13 +38,12 @@ An intelligent, interactive web app that helps job seekers optimize their resume
    ```bash
    git clone https://github.com/Ammar-Siddiqui/ai-resume-analyzer.git
    cd ai-resume-analyzer
-Create a virtual environment and activate it:
-
-bash
-Copy
-Edit
+   
+2. **Create a virtual environment and activate it:**
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+
 Install requirements:
 
 bash
