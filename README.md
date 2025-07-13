@@ -40,4 +40,38 @@ ai-resume-analyzer/
 ├── .env                   # Your OpenAI API key (not uploaded to GitHub)
 └── README.md              # This file
 
+How to Run Locally
+
+1. Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/Ammar-Siddiqui/ai-resume-analyzer.git
+cd ai-resume-analyzer
+Create a virtual environment and activate it:
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+Install dependencies:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+Add your OpenAI key to a .env file:
+
+bash
+Copy
+Edit
+OPENAI_API_KEY=your_key_here
+Run the app:
+
+bash
+Copy
+Edit
+streamlit run app.py
 
