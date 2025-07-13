@@ -30,48 +30,28 @@ An intelligent, interactive web app that helps job seekers optimize their resume
 
 ---
 
-## 📂 Project Structure
-
-```bash
-ai-resume-analyzer/
-├── app.py                 # Main Streamlit application
-├── resume_utils.py        # PDF extraction + similarity scoring
-├── requirements.txt       # Dependencies
-├── .env                   # Your OpenAI API key (not uploaded to GitHub)
-└── README.md              # This file
 
 How to Run Locally
 
 1. Clone the repo:
-
-bash
-Copy
-Edit
+   
 git clone https://github.com/Ammar-Siddiqui/ai-resume-analyzer.git
 cd ai-resume-analyzer
-Create a virtual environment and activate it:
 
-bash
-Copy
-Edit
+
+
+2. Create a virtual environment and activate it:
 python -m venv venv
 source venv/bin/activate  # or `venv\Scripts\activate` on Windows
-Install dependencies:
 
-bash
-Copy
-Edit
+
+3. Install requirments
 pip install -r requirements.txt
-Add your OpenAI key to a .env file:
 
-bash
-Copy
-Edit
+
+4. Add your OpenAI key to a .env file:
 OPENAI_API_KEY=your_key_here
-Run the app:
 
-bash
-Copy
-Edit
+5. Run the app:
 streamlit run app.py
 
