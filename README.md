@@ -41,21 +41,18 @@ An intelligent, interactive web app that helps job seekers optimize their resume
    
 2. **Create a virtual environment and activate it:**
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows, use: venv\Scripts\activate
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
-Install requirements:
+3. **Install requirements:**
 
+```bash
+   pip install -r requirements.txt
+
+4. **Add your OpenAI key to a .env file:**
 bash
-Copy
-Edit
-pip install -r requirements.txt
-Add your OpenAI key to a .env file:
-
-bash
-Copy
-Edit
 OPENAI_API_KEY=your_key_here
+
 Run the app:
 
 bash
