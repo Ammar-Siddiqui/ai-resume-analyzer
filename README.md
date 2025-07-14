@@ -40,24 +40,19 @@ An intelligent, interactive web app that helps job seekers optimize their resume
    cd ai-resume-analyzer
    
 2. **Create a virtual environment and activate it:**
-```bash
+
    python -m venv venv
    source venv/bin/activate  # On Windows, use: venv\Scripts\activate
 
 3. **Install requirements:**
 
-```bash
    pip install -r requirements.txt
 
 4. **Add your OpenAI key to a .env file:**
-bash
-OPENAI_API_KEY=your_key_here
 
-Run the app:
+   OPENAI_API_KEY=your_key_here
 
-bash
-Copy
-Edit
-streamlit run app.py
-Copy
-Edit
+5. Run the app:
+
+   streamlit run app.py
+
