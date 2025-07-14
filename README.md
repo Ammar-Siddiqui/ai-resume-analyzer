@@ -32,7 +32,7 @@ An intelligent, interactive web app that helps job seekers optimize their resume
 
 
 
-### 🧪 How to Run Locally
+###  How to Run Locally
 
 1. **Clone the repo:**
    ```bash
@@ -55,5 +55,4 @@ An intelligent, interactive web app that helps job seekers optimize their resume
 5. **Run the app**:
    ```bash
    streamlit run app.py
-
-
+   
